@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using System.Linq;
 using Math = TestNinja.Fundamentals.Math;
 
 namespace TestNinja.UnitTests
@@ -77,6 +78,50 @@ namespace TestNinja.UnitTests
             //Assert
             Assert.That(results, Is.EqualTo(2));
         }
+
+        [Test]
+
+        //**focus for this is on unit testing arrays and collections
+        public void GetOddNumber_WhenLimitIsGreatherThanZero_ReturnsOddNumbersUpToLimit()
+
+            // **My list of test cases
+        //public void GetOddNumber_WhenLimitIsZero_ReturnsZero()
+        //public void GetOddNumber_WhenLimitIsOne_ReturnsOne()
+        //public void GetOddNumber_WhenLimitIsGreaterThan3_ReturnsArray()
+        //public void GetOddNumber_WhenLimitIsOdd_ReturnsArrayWithLimitInt()
+        //public void GetOddNumber_WhenLimitIsEven_ReturnsArrayWithLimitIntMinusOne()
+        //public void GetOddNumber_WhenLimitIsNegative_ReturnsArrayWithLimitIntMinusOne()
+        //public void GetOddNumber_WhenLimitIsPositive_ReturnsArrayWithLimitIntMinusOne()
+
+        
+        {
+
+            //act
+            var results = _math.GetOddNumbers(5);
+
+            //Assert
+
+            //Assert.That(results, Is.Not.Empty); //very general, shows there is something there, but doesn't show what the array contains
+
+            //Assert.That(results.Count(), Is.EqualTo(3)); //checks for count
+
+            //Assert.That(results, Does.Contain(1)); //checks the array contains certain or specific items, but not the order 
+            //Assert.That(results, Does.Contain(3));
+            //Assert.That(results, Does.Contain(5));
+
+            //shortcut to the above is to check against another small array.  Doesn't check order, just the items are in the array
+            Assert.That(results, Is.EquivalentTo(new[] { 1, 3, 5 }));
+
+
+            ////to check the array order
+            //Assert.That(results, Is.Ordered); 
+
+            ////check the array has unique values
+            //Assert.That(results, Is.Unique);
+
+
+        }
+
 
     }
 }
