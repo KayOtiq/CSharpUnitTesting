@@ -68,7 +68,7 @@ namespace TestNinja.UnitTests
             // Act
             _logger.Log("Sample error message");
              
-            // Assert
+            // Asserta
             Assert.That(id, Is.Not.EqualTo(Guid.Empty));
 
 
