@@ -24,3 +24,16 @@ C:\Source\Repos\CSharpUnitTesting\source-code-starter\TestNinja\TestNinja\obj\De
 C:\Source\Repos\CSharpUnitTesting\source-code-starter\TestNinja\TestNinja\obj\Debug\TestNinja.dll
 C:\Source\Repos\CSharpUnitTesting\source-code-starter\TestNinja\TestNinja\obj\Debug\TestNinja.pdb
 C:\Source\Repos\CSharpUnitTesting\source-code-starter\TestNinja\TestNinja\obj\Debug\TestNinja.csprojAssemblyReference.cache
+C:\Source\Repos\CSharpUnitTesting\TestNinja\bin\Debug\TestNinja.dll.config
+C:\Source\Repos\CSharpUnitTesting\TestNinja\bin\Debug\TestNinja.dll
+C:\Source\Repos\CSharpUnitTesting\TestNinja\bin\Debug\TestNinja.pdb
+C:\Source\Repos\CSharpUnitTesting\TestNinja\bin\Debug\EntityFramework.dll
+C:\Source\Repos\CSharpUnitTesting\TestNinja\bin\Debug\EntityFramework.SqlServer.dll
+C:\Source\Repos\CSharpUnitTesting\TestNinja\bin\Debug\Newtonsoft.Json.dll
+C:\Source\Repos\CSharpUnitTesting\TestNinja\bin\Debug\EntityFramework.xml
+C:\Source\Repos\CSharpUnitTesting\TestNinja\bin\Debug\EntityFramework.SqlServer.xml
+C:\Source\Repos\CSharpUnitTesting\TestNinja\bin\Debug\Newtonsoft.Json.xml
+C:\Source\Repos\CSharpUnitTesting\TestNinja\obj\Debug\TestNinja.csprojAssemblyReference.cache
+C:\Source\Repos\CSharpUnitTesting\TestNinja\obj\Debug\TestNinja.csproj.CopyComplete
+C:\Source\Repos\CSharpUnitTesting\TestNinja\obj\Debug\TestNinja.dll
+C:\Source\Repos\CSharpUnitTesting\TestNinja\obj\Debug\TestNinja.pdb
